@@ -20,7 +20,7 @@ Puedes encontrar más detalles sobre mis proyectos en mi [sitio web](esta por ve
 
 ## Enlaces
 
-- [Sitio web personal](https://tu-sitio-web.com)
+- [Sitio web personal](https://gorkah.github.io/)
 - [LinkedIn](https://www.linkedin.com/in/gorkahernandez)
 - [GitHub](https://github.com/gorka-hernandez)
 - [Twitter](https://twitter.com/gorkadev)

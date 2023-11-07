@@ -38,7 +38,7 @@ section {
 }
 
 #inicio {
-    background: url('imagen_fondo.jpg') no-repeat center center;
+    background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Ftraptoreditorial.com%2Ffondo-minimalista-negro-minimalist-background-fondo-sitio-web-minimalista-fondo-negro-web%2F&psig=AOvVaw2fF0fStMkGR6OQXfjQnVgR&ust=1699475379513000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJC6naTdsoIDFQAAAAAdAAAAABAx') no-repeat center center;
     background-size: cover;
     height: 100vh;
     display: flex;

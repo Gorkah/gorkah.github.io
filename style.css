@@ -5,6 +5,7 @@ body {
     color: #fff;
     margin: 0;
     padding: 0;
+    transition: background-color 0.5s;
 }
 
 header {
@@ -12,6 +13,7 @@ header {
     padding: 20px;
     position: fixed;
     width: 100%;
+    transition: background-color 0.5s;
 }
 
 nav ul {
@@ -29,26 +31,69 @@ nav a {
     text-decoration: none;
     color: #fff;
     font-size: 18px;
+    transition: color 0.5s;
 }
 
 /* Estilos de secciones */
 section {
     padding: 100px;
     text-align: center;
+    transition: background-color 0.5s, color 0.5s;
 }
 
 #inicio {
-    background: url('fondo.jpg') no-repeat center center;
+    background: url('imagen_fondo.jpg') no-repeat center center;
     background-size: cover;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: background 0.5s;
 }
 
 h1 {
     font-size: 48px;
+}
+
+#articulo {
+    padding: 100px;
+    color: #fff;
+    background: linear-gradient(45deg, #333333, #666666);
+    transition: background 0.5s;
+}
+
+/* Efectos de transición */
+header:hover, nav a:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #00aaff;
+}
+
+section:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #00aaff;
+}
+
+/* Cambio de tonalidad de fondo al desplazarse hacia abajo */
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(45deg, #333333, #666666);
+    animation: gradientChange 10s linear infinite;
+}
+
+@keyframes gradientChange {
+    0% {
+        background: linear-gradient(45deg, #333333, #666666);
+    }
+    100% {
+        background: linear-gradient(45deg, #444444, #777777);
+    }
 }
 
 /* Otros estilos futuristas que desees agregar */

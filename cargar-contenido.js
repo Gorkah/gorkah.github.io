@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
+    cargarContenido("article-content.html","contenido-articulo")
     cargarContenido("article-mineria.html", "contenido-articulo-mineria");
     cargarContenido("article-tarjetas-graficas.html", "contenido-articulo-tarjetas-graficas");
     cargarContenido("article-overclocking.html", "contenido-articulo-overclocking");

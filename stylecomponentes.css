@@ -10,6 +10,11 @@ body {
     height: 100%;
     background-color: #000;
 }
+/* Agrega un estilo al contenedor principal para permitir el desplazamiento vertical */
+.content {
+    overflow-y: scroll;
+    max-height: 100vh; /* Limita la altura del contenedor al alto de la ventana del navegador */
+}
 
 .content {
     position: absolute;

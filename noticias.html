@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Últimas Noticias</title>
+</head>
+<body>
+    <h1>Últimas Noticias</h1>
+    <ul id="noticias-lista"></ul>
+
+    <script>
+        // URL del feed RSS de noticias
+        const feedURL = 'http://feeds.bbci.co.uk/news/rss.xml';
+
+        // Función para obtener y mostrar las últimas noticias
+        async function mostrarUltimasNoticias() {
+            try {
+                const response = await fetch(feedURL);
+                const data = await response.text();
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(data, 'text/xml');
+                const items = xmlDoc.querySelectorAll('item'); // Dependiendo del formato del feed RSS, esto puede variar
+
+                const noticiasLista = document.getElementById('noticias-lista');
+                noticiasLista.innerHTML = '';
+
+                items.forEach((item, index) => {
+                    const titulo = item.querySelector('title').textContent;
+                    const enlace = item.querySelector('link').textContent;
+
+                    const li = document.createElement('li');
+                    const a = document.createElement('a');
+                    a.textContent = titulo;
+                    a.href = enlace;
+                    li.appendChild(a);
+                    noticiasLista.appendChild(li);
+
+                    if (index >= 5) { // Mostrar solo las últimas 5 noticias
+                        return;
+                    }
+                });
+            } catch (error) {
+                console.error('Error al obtener noticias:', error);
+            }
+        }
+
+        // Llama a la función para mostrar las últimas noticias al cargar la página
+        mostrarUltimasNoticias();
+    </script>
+</body>
+</html>

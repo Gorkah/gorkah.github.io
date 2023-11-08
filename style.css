@@ -69,6 +69,10 @@ h1 {
     padding: 100px;
     color: #fff;
 }
+.redes-sociales a img {
+    width: 30px; /* Ajusta el tamaño según tus preferencias */
+    height: 30px; /* Ajusta el tamaño según tus preferencias */
+}
 
 /* Efectos de transición */
 header:hover, nav a:hover {

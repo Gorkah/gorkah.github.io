@@ -2,8 +2,9 @@ var count = 0;
 var powerups = 0;
 var powerups2 = 0;
 var powerups3 = 0;
+var powerups4 = 0;
 function clickCookie() {
-    count += 1 + 10 * powerups2 + 50* powerups3;
+    count += 1 + 10 * powerups2 + 50* powerups3 + 3000 * powerups4;
     document.getElementById('counter').innerHTML = count;
     createCrumbs();
     updateStats();
@@ -52,7 +53,14 @@ function buyPowerup3(){
         updateStats();
     }
 }
+function buyPowerup4(){
+    if(count>= 18000){
+        count -= 18000
+        powerups4 += 1;
+        updateStats();
+    }
+}
 function updateStats() {
-    document.getElementById('stats').innerHTML = 'Power-Ups: ' + powerups + ', Power-Ups 2: ' + powerups2 + ', Power-Ups 3: ' + powerups3 +', Clics por hora: ' + ((0 + 10 * powerups2) * 60 * 60 + powerups * 2 * 60 * 60 + (powerups3*10*60*60));
+    document.getElementById('stats').innerHTML = 'Power-Ups: ' + powerups + ', Power-Ups 2: ' + powerups2 + ', Power-Ups 3: ' + powerups3 + ', Power-Ups 4: ' + powerups4 +', Clics por hora: ' + ((0 + 10 * powerups2) * 60 * 60 + powerups * 2 * 60 * 60 + (powerups3*10*60*60));
 }
 

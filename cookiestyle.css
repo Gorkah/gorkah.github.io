@@ -62,7 +62,7 @@ nav a {
     align-items: center;
 }
 
-#powerup, #powerup2, #powerup3 {
+#powerup, #powerup2, #powerup3, #powerup4 {
     width: 150px;
     height: 150px;
 }
@@ -73,7 +73,7 @@ nav a {
     color: white;
 }
 
-#powerup, #powerup2, #powerup3 {
+#powerup, #powerup2, #powerup3, #powerup4 {
     font-size: 18px;
     margin: 10px;
     color: rgb(255, 255, 255);
@@ -86,7 +86,7 @@ nav a {
 }
 /* Estilos adicionales para migas */
 
-#powerup:hover, #powerup2:hover, #powerup3:hover {
+#powerup:hover, #powerup2:hover, #powerup3:hover, #powerup4:hover {
     background-color: #45a049;
 }
 /* Estilos adicionales para migas */

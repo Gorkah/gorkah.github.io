@@ -80,7 +80,15 @@ h1 {
     width: 30px; /* Ajusta el tamaño según tus preferencias */
     height: 30px; /* Ajusta el tamaño según tus preferencias */
 }
+.linkk {
+    color: rgb(255, 0, 0); /* Cambia el color del texto del enlace a blanco */
+    text-decoration: none; /* Elimina la subrayado predeterminado */
+    transition: color 0.5s; /* Agrega transición de color para suavizar el cambio */
+}
 
+.linkk:hover {
+    color: #00aaff; /* Cambia el color del texto del enlace a azul al pasar el ratón sobre él */
+}
 /* Efectos de transición */
 header:hover, nav a:hover {
     background-color: rgba(0, 0, 0, 0.9);

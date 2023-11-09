@@ -1,13 +1,36 @@
 body {
     margin: 0;
-    overflow: auto;
+    overflow: auto; /* Hacer que el cuerpo sea scrollable */
 }
-header {
-    background-color: rgba(172, 160, 160, 0.7);
-    padding: 20px;
-    position: fixed;
-    width: 100%;
-    transition: background-color 0.5s;
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.5s;
+}
+
+#game {
+    position: relative;
+    text-align: center;
+}
+
+#cookie {
+    width: 100%; /* Hacer que la galleta ocupe el 100% del contenedor */
+    max-width: 300px; /* Establecer un ancho máximo para la galleta */
+    height: auto;
+    margin-top: 20px; /* Ajustar el margen superior según sea necesario */
 }
 
 #particles-js {
@@ -31,7 +54,7 @@ header {
     align-items: center;
 }
 
-#cookie, #powerup, #powerup2, #powerup3 {
+#powerup, #powerup2, #powerup3 {
     width: 150px;
     height: 150px;
 }

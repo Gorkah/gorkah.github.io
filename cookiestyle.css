@@ -27,8 +27,8 @@ nav a {
 }
 
 #cookie {
-    width: 100%; /* Hacer que la galleta ocupe el 100% del contenedor */
-    max-width: 300px; /* Establecer un ancho máximo para la galleta */
+    width: 70%; /* Hacer que la galleta ocupe el 100% del contenedor */
+    max-width: 200px; /* Establecer un ancho máximo para la galleta */
     height: auto;
     margin-top: 20px; /* Ajustar el margen superior según sea necesario */
 }

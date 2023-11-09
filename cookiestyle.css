@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  #game {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  #cookie {
+    width: 200px;
+    height: 200px;
+  }
+  
+  #counter, #powerup, #powerup2, #stats {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  /* Particle background */
+  
+  .particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .particle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    background-color: #ffffff;
+    border-radius: 50%;
+  }
+  
+  

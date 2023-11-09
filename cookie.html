@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Game</title>
     <link rel="stylesheet" type="text/css" href="cookiestyle.css">
     
     <script src="game.js"></script>
 </head>
 <body>
-    
+    <div id="particles-js"></div>
     <div id="game">
-        <img id="cookie" src="cookie.png" onclick="clickCookie()">
-        <div id="counter">0</div>
-        <button id="powerup" onclick="buyPowerup()">Comprar Power-Up (25 clics)</button>
-        <button id="powerup2" onclick="buyPowerup2()">Comprar Power-Up 2 (100 clics)</button>
-        <div id="stats"></div>
+        <section id = "juego" class = "transparent-bg">
+            <img id="cookie" src="cookie.png" onclick="clickCookie()">
+            <div id="counter">0</div>
+            <button id="powerup" onclick="buyPowerup()">Comprar Power-Up (auto-2) (25 clics)</button>
+            <button id="powerup2" onclick="buyPowerup2()">Comprar Power-Up 2 (10) (100 clics)</button>
+            <button id="powerup3" onclick="buyPowerup3()">Comprar Power-Up 3 (50) (300 clics)</button>
+            <div id="stats"></div>       
+
+        </section>
+        
     </div>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>

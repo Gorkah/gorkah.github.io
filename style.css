@@ -9,13 +9,20 @@ body {
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(172, 160, 160, 0.7);
     padding: 20px;
     position: fixed;
     width: 100%;
     transition: background-color 0.5s;
 }
-
+#counter {
+    color: white; /* Cambia el color del texto a blanco */
+}
+#powerup,
+#powerup2,
+#stats {
+    color: white; /* Cambia el color del texto a blanco para estos elementos también */
+}
 nav ul {
     list-style: none;
     padding: 0;

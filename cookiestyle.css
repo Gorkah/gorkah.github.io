@@ -3,18 +3,68 @@ body {
     overflow: hidden;
 }
 
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('back.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
 #game {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-#cookie {
-    width: 200px;
-    height: 200px;
+
+#cookie, #powerup, #powerup2, #powerup3 {
+    width: 150px;
+    height: 150px;
 }
-#counter, #powerup, #powerup2, #stats {
+
+#counter, #stats {
     font-size: 24px;
     margin-top: 20px;
+    color: white;
+}
+
+#powerup, #powerup2, #powerup3 {
+    font-size: 18px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #4CAF50;
+    padding: 20px; /* Ajusta el espaciado interno del botón */
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+/* Estilos adicionales para migas */
+
+#powerup:hover, #powerup2:hover, #powerup3:hover {
+    background-color: #45a049;
+}
+/* Estilos adicionales para migas */
+/* Estilos adicionales para migas */
+.crumbs {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #dcb77c; /* Color de las migas */
+    border-radius: 50%;
+    animation: crumbFall 2s ease-out;
+}
+
+@keyframes crumbFall {
+    to {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
 }

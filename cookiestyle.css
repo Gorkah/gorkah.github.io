@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    overflow: hidden;
+    overflow: auto;
 }
 header {
     background-color: rgba(172, 160, 160, 0.7);

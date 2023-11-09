@@ -2,6 +2,13 @@ body {
     margin: 0;
     overflow: hidden;
 }
+header {
+    background-color: rgba(172, 160, 160, 0.7);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    transition: background-color 0.5s;
+}
 
 #particles-js {
     position: absolute;

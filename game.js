@@ -28,3 +28,6 @@ function updateStats() {
     document.getElementById('stats').innerHTML = 'Power-Ups: ' + powerups + ', Power-Ups 2: ' + powerups2 + ', Clics por hora: ' + ((1 + 10 * powerups2) * 60 * 60 + powerups * 2 * 60 * 60);
 }
 
+particlesJS.load('particles-js', 'particles.json', function() {
+    console.log('particles.js loaded - callback');
+});

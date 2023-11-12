@@ -47,7 +47,7 @@ section {
     text-align: center;
     transition: background-color 0.5s, color 0.5s;
 }
-/*
+
 #inicio {
     background: url('imagen_fondo.jpg') no-repeat center center;
     background-size: cover;
@@ -58,7 +58,7 @@ section {
     align-items: center;
     transition: background 0.5s;
 }
-*/
+
 #particles-js {
     position: fixed;
     top: 0;

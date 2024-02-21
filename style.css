@@ -71,7 +71,14 @@ section {
 h1 {
     font-size: 48px;
 }
+.video-container {
+    text-align: center; /* Alinea el contenido al centro */
+    margin-bottom: 20px; /* Ajusta el margen inferior según sea necesario */
+}
 
+.video-container iframe {
+    display: inline-block; /* Hace que el iframe se comporte como un bloque en línea */
+}
 #articulo {
     padding: 100px;
     color: #fff;

@@ -12,7 +12,7 @@ Soy un desarrollador web con un interés particular en las tendencias futuristas
 - **Proyecto 2**: Automatización Setup
 - **Proyecto 3**: Reloj ESP32
 
-Puedes encontrar más detalles sobre mis proyectos en mi [sitio web](esta por ver).
+Puedes encontrar más detalles sobre mis proyectos en mi [Sitio web personal](https://gorkah.github.io/) o mi canal de [Youtube](https://youtube.com/@thepalms1)
 
 ## Contacto
 

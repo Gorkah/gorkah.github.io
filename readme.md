@@ -8,11 +8,11 @@ Soy un desarrollador web con un interés particular en las tendencias futuristas
 
 ## Proyectos Destacados
 
-- **Proyecto 1**: 
-- **Proyecto 2**: 
-- **Proyecto 3**: 
+- **Proyecto 1**: Refrigeración liquida custom GPU
+- **Proyecto 2**: Automatización Setup
+- **Proyecto 3**: Reloj ESP32
 
-Puedes encontrar más detalles sobre mis proyectos en mi [sitio web](esta por ver).
+Puedes encontrar más detalles sobre mis proyectos en mi [Sitio web personal](https://gorkah.github.io/) o mi canal de [Youtube](https://youtube.com/@thepalms1)
 
 ## Contacto
 
@@ -21,14 +21,11 @@ Puedes encontrar más detalles sobre mis proyectos en mi [sitio web](esta por ve
 ## Enlaces
 
 - [Sitio web personal](https://gorkah.github.io/)
-- [LinkedIn](https://www.linkedin.com/in/gorkahernandez)
-- [GitHub](https://github.com/gorka-hernandez)
-- [Twitter](https://twitter.com/gorkadev)
+- [LinkedIn](https://www.linkedin.com/in/gorka-hernandez-11204126a/)
+- [GitHub](https://github.com/gorkah)
+- [Youtube](https://youtube.com/@thepalms1)
 
-## Capturas de Pantalla
 
-Inserta aquí algunas capturas de pantalla de tus proyectos para dar a los visitantes una vista previa.
 
----
+![Logo](https://yt3.googleusercontent.com/abgXb5WC-EVS_NeErR6YP-hGdRzATEC6FYRNMoUneTjAzddDyDAK8dqmaR_M8FlADzauPCGNq7o=s176-c-k-c0x00ffffff-no-rj)
 
-Gracias por visitar mi portafolio. ¡Espero que encuentres mis proyectos interesantes!
